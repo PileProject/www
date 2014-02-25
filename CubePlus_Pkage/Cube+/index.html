@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Welcome to Cube+</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--[if lte IE 7]><script src="lte-ie7.js"></script><![endif]-->
+	<link href="images/faviicon-icon.png" rel="shortcut icon" type="image/png">
+
+	<!-- google font -->
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,200italic' rel='stylesheet' type='text/css'>
+	<!-- main css -->
+	<style type="text/css">
+        body{
+            font-family: 'Lato',sans-serif;
+        }
+
+        .home-wrapper{
+            max-width: 1170px;
+            margin: 0 auto;
+        }
+
+        .cube-visual{
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        .cube-visual ul{
+            list-style-type: none;
+            display: block;
+            font-size: 0;
+            padding: 0;
+            margin: 0;
+        }
+
+        .cube-visual ul li{
+            display: inline-block;
+            width: 40%;
+            font-size: 14px;
+            margin-right: 5%;
+            margin-left: 5%;
+            text-align: center;
+        }
+
+        .cube-visual ul li h1{
+            font-family: 'Lato',sans-serif;
+            font-weight: normal;
+            font-size: 20px;
+            background-color: #3498DB;
+            border: 3px solid #34495E;
+            display: inline-block;
+            margin: 35px auto 0 0;
+            text-align: center;
+            width: 50%;
+            transition: all .3s linear 0s;
+        }
+
+        .cube-visual ul li h1 a{
+            color: #FFFFFF;
+            display: block;
+            font-size: 20px;
+            font-weight: 400;
+            padding: 10px;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+
+        .cube-visual ul li h1:hover{
+            background-color: #34495E;
+             border: 3px solid #3498DB;
+        }
+
+        img{
+            max-width: 100%;
+            height: auto;
+            vertical-align: top;
+        }
+
+        @media( max-width: 480px ){
+        
+        .cube-visual ul li{
+        	width:90%;
+        	margin-bottom:60px;
+        }
+        
+        .cube-visual ul li:last-child{
+        	margin-bottom:0px;
+        }
+
+            .cube-visual ul li h1{
+                width: 55%;
+            }
+
+            .cube-visual ul li h1 a{
+                font-size: 15px;
+            }
+        }
+        
+
+    </style>
+</head>
+
+<body class="cube">
+<div class="home-wrapper">
+	<div class="row">
+    	<div class="cube-visual"> 
+		<ul>
+	                <li>
+	                	<a href="http://pixelcoder.net/cube+/parallax/" target="_blank"><img src="images/cube-parallax.png" alt="parallax-cube"></a>
+	                	<h1><a href="http://pixelcoder.net/cube+/parallax/" target="_blank">parallax</a></h1>
+	                </li>
+	                <li>
+	                	<a href="http://pixelcoder.net/cube+/no-parallax/" target="_blank"><img src="images/cube-noparallax.png" alt="Noparallax-cube"></a>
+	                	<h1><a href="http://pixelcoder.net/cube+/no-parallax/" target="_blank">noparallax</a></h1>
+	                </li>
+    		</ul>
+            <br class="clear"/>
+    	</div>
+    </div>
+</div> 
+</body>
+</html>
