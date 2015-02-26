@@ -448,6 +448,7 @@ a.top-section {
 	margin-right: auto;
 }
 #event .detail th {
+	white-space: nowrap;
 	padding: 10px;
 	text-align: left;
 	vertical-align: top;
