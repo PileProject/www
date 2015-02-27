@@ -366,6 +366,9 @@ a.top-section {
 	position: relative;
 	width: 100%;
 }
+#event h2 {
+	margin-bottom: 3px;
+}
 #event .head {
 	position: relative;
 	background: #3498db;
