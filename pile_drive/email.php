@@ -7,7 +7,7 @@ if($_POST){
     $message = nl2br($_POST['text']);
 
     // To send HTML mail
-    $to = "pileproject@googlegroups.com";
+    $to = "pileproject@gmail.com";
 
     // subject
     $subject = 'From PILE Web';
