@@ -435,9 +435,9 @@ a.top-section {
 #event .item_box .icon.hand {
 	background-image: url(../images/hand.png);
 }
-#event .item_box h3 {
-	margin: 70px 0 20px;
-	color: #3498db;
+#event #application h4 {
+	margin: 10px 10px;
+	color: #5f9ea0;
 	font-weight: 300;
 }
 #event .item_box p {
