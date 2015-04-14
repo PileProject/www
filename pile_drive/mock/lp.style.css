@@ -1,0 +1,447 @@
+@charset "UTF-8";
+
+body {
+  font-family: "", sans-serif;
+}
+
+/* =================================
+Grobal Styles
+================================= */
+h1 {
+  font-size: 40px;
+}
+h2 {
+  font-size: 36px;
+  color: #fff;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+p {
+  font-size: 16px;
+  line-height: 1.8em;
+  margin-bottom: 8px;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+}
+button {
+  border: none;
+  width: 100%;
+  font-size: 22px;
+  color: #fff;
+  padding: 20px;
+  display: inline-block;
+  background-color: #2E8B57;
+  border-radius: 5px;
+  box-shadow: 0 6px #035c28;
+  -webkit-transition: none;
+  -moz-transition: none;
+  transition: none;
+}
+.main-visual {
+  position: fixed;
+  right: 0;
+  top: 0;
+  min-width: 100%;
+  min-height: 500px;
+  z-index: -100;
+  width: auto;
+  height: auto;
+  background: url(main-visual.png) no-repeat;
+  background-size: cover;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  font-size: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* =================================
+Layout
+================================= */
+.about, .school, .voices {
+  padding: 40px 0;
+  background-color: #fafafa;
+}
+#about {
+  background-color: #FF8C00;
+}
+#school {
+  background-color: #2E8B57;
+}
+#voices {
+  background-color: #FF337A;
+}
+.wapper {
+  position: relative;
+  z-index: 1;
+}
+
+/* =================================
+Header
+================================= */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background: #3498db;
+  z-index: 1000;
+  box-shadow: 10px 0 10px 0;
+  -moz-box-shadow: 10px 0 10px 0;
+  -webkit-box-shadow: 10px 0 10px 0;
+  -o-box-shadow: 10px 0 10px 0;
+  -ms-box-shadow: 10px 0 10px 0;
+}
+.site a{
+  color: #fff;
+  float: left;
+}
+/* =================================
+Main Visual Text
+================================= */
+.main-visual-text {
+  position: relative;
+  height: 500px;
+}
+.main-visual-text:before {
+  content: ".";
+  display: block;
+  height: 0;
+  font-size: 0;
+  clear: both;
+  visibility: hidden;
+}
+  .main-visual-text h2 {
+    position: relative;
+    top: 120px;
+    left: 0;
+  }
+/* =================================
+Section About
+================================= */
+.about h3 {
+  border-bottom: solid 2px #FF8C00;
+  color: #FF8C00;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.feacher {
+  width: 29%;
+  height: 300px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+/* =================================
+Section school
+================================= */
+.school h3 {
+  border-left: solid 5px #2E8B57;
+  margin-bottom: 20px;
+}
+.school h4 {
+  border-bottom: solid 2px #2E8B57;
+  margin: 20px 0;
+}
+.school-details {
+  margin: 0 auto;
+}
+.courses {
+  margin-bottom: 20px;
+}
+  .course-img {
+    float: left;
+  }
+  .course-text {
+  }
+.details {
+  width: 45%;
+}
+  .details-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .details-table th {
+    width: 15%;
+    padding: 5px;
+    text-align: center;
+    vertical-align: top;
+    color: #fff;
+    background-color: #2E8B57;
+  }
+  .details-table td {
+    width: 65%;
+    padding: 5px;
+  }
+/* =================================
+Section Voice
+================================= */
+.customer-voices {
+  margin-top: 40px;
+}
+.voices button {
+  background-color: #FF337A;
+  box-shadow: 0 6px #a1001b;
+}
+.voice {
+  width: 29%;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.voice-low {
+  border-top: solid 2px #FF337A;
+}
+.voice-img {
+  float: left;
+}
+.voice-low {
+  padding: 10px;
+}
+  .voice-low p {
+    color: #FF337A;
+  }
+/* =================================
+Footer
+================================= */
+footer {
+  background-color: #fafafa;
+  border-top: solid 1px #dbdbdb;
+}
+footer p {
+  text-align: center;
+}
+/* =================================
+Resposive Web Design
+================================= */
+
+/* ========== 599px以下 ========== */
+@media (max-width: 599px) {
+/* ====== Layout ====== */
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.feacher {
+  width: 90%;
+}
+.details {
+  width: 100%;
+}
+.school-movie {
+  width: 100%;
+  margin-top: 40px;
+}
+.voice {
+  width: 90%;
+}
+.application-btn1 {
+  position: absolute;
+  bottom: 40px;
+  right: 0;
+  width: 100%;
+}
+.application-btn2 {
+  width: 100%;
+  margin-top: 40px;
+}
+.application-btn3 {
+  width: 100%;
+  margin-top: 40px;
+}
+/* ====== Responsive Menu ====== */d
+.site h1 {
+  font-size: 34px;
+  line-height: 60px;
+}
+nav ul li {
+  font-size: 14px;
+  position: relative;
+  width: 150px;
+  height: 60px;
+  line-height: 60px;
+  color: #fff;
+  text-align: center;
+  float: left;
+}
+nav ul li a {
+  display: block;
+}
+nav ul li:hover, nav ul li a:hover {
+  color: #fff;
+}
+nav ul li ul {
+  position: absolute;
+  top: 60px;
+  width: 150px;
+  z-index: 100;
+}
+nav ul li ul li {
+  visibility: hidden;
+  overflow: hidden;
+  width: 150px;
+  height: 0;
+  background: #3498db;
+}
+nav ul li ul li a {
+  color: #fff;
+}
+nav ul li ul li:hover, nav ul li ul li a:hover {
+  background: #3984db;
+  color: #fff;
+}
+nav ul li:hover ul li, nav ul li a:hover ul li {
+  visibility: visible;
+  overflow: visible;
+  height: 40px;
+  line-height: 40px;
+  z-index: 10;
+}
+nav * {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.share-fb, .share-tw {
+  padding: none;
+}
+.share-fb {
+}
+.share-tw {
+}
+.main-visual-text h2 {
+  font-size: 34px;
+  position: relative;
+  top: 100px;
+  left: 0;
+}
+}/* @media (max-width: 599px) */
+
+/* ========== 600px以上 1039px以下 ========== */
+@media (min-width: 600px) and (max-width: 1039px){
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.feacher {
+  width: 400px;
+}
+.details, .school-movie, .application {
+  margin: 0 auto;
+}
+.details {
+  width: 400px;
+}
+.school-movie {
+  width: 400px;
+  margin-top: 40px;
+}
+.voice {
+  width: 400px;
+}
+.application-btn1 {
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+  width: 45%;
+}
+.application-btn2 {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.application-btn3 {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+nav ul li span {
+  display: none;
+}
+nav a {
+  color: #fff;
+}
+nav a:hover {
+  border-bottom: solid 5px #fff;
+}
+nav ul li ul li {
+  float: left;
+  margin: 20px 10px;
+}
+nav ul li ul li:first-child {
+  margin-left: 30px;
+  border: none;
+}
+.share-fb, .share-tw {
+  padding: 10px;
+}
+}/* @media (max-width: 767px) and (max-width: 1039px) */
+
+/* ========== 1040px以上 ========== */
+@media (min-width: 1040px) {
+/* ====== Layout ====== */
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  max-width: none !important;
+  position: relative;
+}
+.feacher {
+  margin: 0 2%;
+  float: left;
+}
+.details {
+  float: left;
+}
+.voice {
+  margin: 0 2%;
+  float: left;
+}
+.application-btn2 {
+  width: 45%;
+  float: left;
+  margin: 0 5%;
+  margin-top: 20px;
+}
+.application-btn3 {
+  width: 45%;
+  margin-top: 20px;
+  float: left;
+  margin: 0 2%;
+}
+nav ul li span {
+  display: none;
+}
+nav a {
+  color: #fff;
+}
+nav a:hover {
+  border-bottom: solid 5px #fff;
+}
+nav ul li ul li {
+  float: left;
+  margin: 20px 10px;
+}
+nav ul li ul li:first-child {
+  margin-left: 30px;
+  border: none;
+}
+}/* @media (min-width: 1040px) */
