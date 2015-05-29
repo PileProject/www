@@ -88,13 +88,13 @@
                             <li> <img class="slide_img2" src="images/carousel/slide3.png" alt="" />
                                 <div class="caption2">
                                     <div align="center">
-                                         <a href="http://pile-drive.com/en.html" target=”_blank”><img src="images/unitedstates.png" onMouseOver="this .src='images/unitedstates2.png'"onMouseOut="this .src='images/unitedstates.png'"/></a>
-                                         <a href="http://pile-drive.com/" target=”_blank”><img src="images/japanese.png" onMouseOver="this .src='images/japanese2.png'"onMouseOut="this .src='images/japanese.png'" /></a>
+                                        <a href="http://pile-drive.com/en.html" target=”_blank”><img src="images/unitedstates.png" onMouseOver="this.src = 'images/unitedstates2.png'"onMouseOut="this.src = 'images/unitedstates.png'"/></a>
+                                        <a href="http://pile-drive.com/" target=”_blank”><img src="images/japanese.png" onMouseOver="this.src = 'images/japanese2.png'"onMouseOut="this.src = 'images/japanese.png'" /></a>
                                     </div>
                                     <h1>Let's learn to program easily and joyfully</h1>
                                     <p>The first step in making great things!</p>
                                     <!--<a class="buy-now" href="https://play.google.com/store/apps/details?id=jp.mity.ev3drive&hl=ja" target="_blank">INSTALL NOW</a> -->
-                                    </div>
+                                </div>
                             </li>
                         </ul>
                     </div>
@@ -220,7 +220,6 @@
                                     <div class="member_info">
                                         <h4>MAKOTO SHIMAZU</h4>
                                         <i>Hardware Engineer</i> </div>
-
                                 </div>
                             </article>
                             <article>
@@ -247,7 +246,8 @@
         <div id="services">
             <div class="head">
                 <h1>OUR WORK</h1>
-                <a href="#services" class="next-section services animate2"><i class="icon-double-angle-down"></i></a> </div>
+                <a href="#services" class="next-section services animate2"><i class="icon-double-angle-down"></i></a> 
+            </div>
             <div class="container">
                 <div class="row-fluid">
                     <div class="page_title">
@@ -299,19 +299,23 @@
                             </div>
                         </div>
                     </div>
-                    
                 </div>
+                <!-- ******************************************************************************************************************************
+                Demo Movie
+                *********************************************************************************************************************************** -->
                 <div class="clearfix"></div>
-            <div id="responsive_design">
-                <div class="container">
-                    <div class="content">
-                        <!--<h2>It is the movie of a working robot.<br> I operate this with a wireless remote controller.</h2>-->
-                        <div class="video">
-                            <iframe src="//player.vimeo.com/video/99897113" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/99897113">DEMO MOVIE</a> from <a href="http://vimeo.com/user29427064">Pileproject</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+                <div id="responsive_design">
+                    <div class="container">
+                        <div class="content">
+                            <div class="video">
+                                <iframe src="//player.vimeo.com/video/99897113" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/99897113">DEMO MOVIE</a> from <a href="http://vimeo.com/user29427064">Pileproject</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+                <!-- ******************************************************************************************************************************
+                /Demo Movie
+                *********************************************************************************************************************************** -->
             </div>
         </div>
         <div class="clearfix"></div>
@@ -452,7 +456,6 @@
             <script type="text/javascript" src="js/flexslider.js" ></script> 
             <!-- Layout Script--> 
             <script type="text/javascript" src="js/script.mini.js"></script>
-
             <script>(function(d, s, id) {
                                                 var js, fjs = d.getElementsByTagName(s)[0];
                                                 if (d.getElementById(id))
