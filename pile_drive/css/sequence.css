@@ -164,7 +164,7 @@
 /* when in fallback mode (for browsers that don't support transitions) hide anything outside of the Sequence container */
 .banner {
 	width: 100%;
-	height: 770px;
+	height: 600px;
 	overflow: hidden;
 	color: #fff;
 	text-align: center;
