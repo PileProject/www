@@ -1,0 +1,349 @@
+  /**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+caption,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+blockquote,
+q {
+    8 quotes: none
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+html {
+    font-size: 87.5%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+body {
+    position: relative;
+    overflow: hidden;
+    visibility: hidden;
+}
+ 
+/* #container
+--------------------------- */
+#container {
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+ 
+/* .panel-base
+--------------------------- */
+.panel-base {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.panel-base .panel_inner {
+    padding-top: 100%;
+    text-align: center;
+}
+#stage1 {background:#fff;}
+#stage2 {background:#eee;}
+#stage3 {background:#ddd;}
+#stage4 {background:#ccc;}
+#stage5 {background:#bbb;}
+ 
+/* .stageSlide
+--------------------------- */
+.stageSlide {
+    position: relative;
+    overflow: hidden;
+    visibility: hidden;
+}
+.stageSlide .slideWrap {
+    top: 0;
+    left: 0;
+    position: absolute;
+    overflow: hidden;
+}
+.stageSlide .slideWrap:before,
+.stageSlide .slideWrap:after {
+    content: " ";
+    display: table;
+}
+.stageSlide .slideWrap:after {clear: both;}
+.stageSlide .slideWrap {*zoom: 1;}
+ 
+.stageSlide .slidePanel {
+    float: left;
+    overflow: hidden;
+}
+ 
+.stageSlide .sdPrev,
+.stageSlide .sdNext {
+    margin-top: -25px;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    z-index: 99;
+    opacity: 0.8;
+}
+/*.stageSlide .sdPrev {
+    left: 80px;
+    background: transparent url(img/slide_prev.png) no-repeat left top;
+}
+.stageSlide .sdNext {
+    right: 80px;
+    background: transparent url(img/slide_next.png) no-repeat left top;
+}*/
+ 
+/*.stageSlide .slideNav {
+    bottom: 70px;
+    left: 0;
+    width: 100%;
+    height: 15px;
+    text-align: center;
+    position: absolute;
+    z-index: 98;
+}*/
+.stageSlide .slideNav a {
+    margin: 0 5px;
+    width: 15px;
+    height: 15px;
+    background: transparent url(img/nav.png) no-repeat center center;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 7px;
+    opacity: 0.8;
+}
+.stageSlide .slideNav a.pnActive {
+    background: transparent url(img/nav_acv.png) no-repeat center center;
+}
+ 
+/* #pageNav
+--------------------------- */
+#pageNav {
+    top: 0;
+    right: 25px;
+    width: 15px;
+    text-align: center;
+    position: fixed;
+    z-index: 2;
+}
+#pageNav ul {
+    width: 15px;
+    display: block;
+}
+#pageNav ul li {
+    padding-bottom: 5px;
+    width: 15px;
+    height: 15px;
+    display: block;
+    overflow: hidden;
+}
+#pageNav ul li a {
+    width: 15px;
+    height: 15px;
+    background: transparent url(img/nav.png) no-repeat center center;
+    display: block;
+    border-radius: 7px;
+    opacity: 0.8;
+}
+#pageNav ul li.activeStage a {
+    background: transparent url(img/nav_acv.png) no-repeat center center;
+}
+ 
+/* #pageDown
+--------------------------- */
+#pageDown {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    position: fixed;
+    overflow: hidden;
+    z-index: 3;
+}
+#pageDown a {
+    margin: 0 auto;
+    width: 30px;
+    height: 30px;
+    background: transparent url(img/next_arw.png) no-repeat center center;
+    display: block;
+    opacity: 0.8;
+}
+
+
+/*ページ個別指定*/
+
+#panel_01{
+    background: url(img/main_01.png) center / cover no-repeat ; 0 0 ,#e2e2e2;
+    background-size: 1280px;
+}
+#panel_02{
+    background: url(img/main_02.png) center / cover no-repeat ; 0 0 ,#f2f2f2;
+    background-size: 1280px;
+}
+#panel_03{
+    background: url(img/main_03.png) center / cover no-repeat ; 0 0 ,#f2f2f2;
+    background-size: 1280px;
+}
+#panel_07{
+    background: url(img/main_07.png) center / cover no-repeat ; 0 0 ,#f2f2f2;
+    background-size: 1280px;
+}
+#panel_05{
+    background: url(img/main_05.png) center / cover no-repeat ; 0 0 ,#f2f2f2;
+    background-size: 1280px;
+}
+#panel_06{
+    background: url(img/main_06.png) center / cover no-repeat ; 0 0 ,#f2f2f2;
+    background-size: 1280px;
+}
+/*.panel_inner{
+    background-size: 1280px !important;*/
+}
+/*.panel_03{
+    background: url(img/scene_0.jpg) center / cover no-repeat; 0 0 ,#f2f2f2;
+    background-size: 1280px;
+}
+.panel_inner.__02{
+    background: url(img/scene_02.jpg) center / cover no-repeat; 0 0 ,#f2f2f2;
+}
+.panel_inner.__03{
+    background: url(img/scene_03.jpg) center / cover no-repeat; 0 0 ,#f2f2f2;
+}
+.panel_inner.__04{
+    background: url(img/scene_04.jpg) center / cover no-repeat; 0 0 ,#f2f2f2;
+}
+.panel_inner.__05{
+    background: url(img/scene_05.jpg) center / cover no-repeat; 0 0 ,#f2f2f2;
+}
+.panel_inner.__06{
+    background: url(img/scene_06.jpg) center / cover no-repeat; 0 0 ,#f2f2f2;
+}
+.panel_inner.__07{
+    background: url(img/scene_07.jpg) no-repeat 0 0 ,#f2f2f2;
+}
+.panel_inner.__08{
+    background: url(img/scene_08.jpg) no-repeat 0 0 ,#f2f2f2;
+}
+.panel_inner.__09{
+    background: url(img/scene_09.jpg) no-repeat 0 0 ,#f2f2f2;
+}*/
+iframe {
+    width: 1280px;
+    height: 100%;
+}
+#panel_04{
+background: #000;
+}
