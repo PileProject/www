@@ -287,27 +287,28 @@ body {
 
 #panel_01{
     background: url(img/main_01.png) center / cover no-repeat ; 0 0 ,#e2e2e2;
-    background-size: 1280px;
+    background-size:100% auto;
+    /*background-size: 1280px;*/
 }
 #panel_02{
     background: url(img/main_02.png) center / cover no-repeat ; 0 0 ,#f2f2f2;
-    background-size: 1280px;
+    background-size:100% auto;
 }
 #panel_03{
     background: url(img/main_03.png) center / cover no-repeat ; 0 0 ,#f2f2f2;
-    background-size: 1280px;
+    background-size:100% auto;
 }
 #panel_07{
     background: url(img/main_07.png) center / cover no-repeat ; 0 0 ,#f2f2f2;
-    background-size: 1280px;
+    background-size:100% auto;
 }
 #panel_05{
     background: url(img/main_05.png) center / cover no-repeat ; 0 0 ,#f2f2f2;
-    background-size: 1280px;
+    background-size:100% auto;
 }
 #panel_06{
     background: url(img/main_06.png) center / cover no-repeat ; 0 0 ,#f2f2f2;
-    background-size: 1280px;
+    background-size:100% auto;
 }
 /*.panel_inner{
     background-size: 1280px !important;*/
