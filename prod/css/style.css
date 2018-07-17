@@ -5,7 +5,7 @@ CUBE+ STYLESHEET
 by wedothewebs
 Date: 28/09/2013
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-@import url(http://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic);
 @import url(font-awesome.css);
 @import url(bootstrap.css);
 @import url(bootstrap-responsive.css);
@@ -151,7 +151,7 @@ h1.center {
 .relative {
 	position: relative;
 }
-/*Transition Animation*/ 
+/*Transition Animation*/
 a, #primary, .item_box .icon, .team, .team .social, .team .social a, .service_icon, .service_icon img, .service_hover, .carousel-control, .carousel, nav#primary, .mailFromDiv, .mailSuccessDiv, .error, .er {
 	-webkit-transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
 	-moz-transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
@@ -160,7 +160,7 @@ a, #primary, .item_box .icon, .team, .team .social, .team .social a, .service_ic
 	transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- HEADER SECTION 
+ HEADER SECTION
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .header {
     position: relative;
@@ -316,7 +316,7 @@ a.top-section {
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	Responsive Design Content
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/	
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 #responsive_design {
 	background: url(../images/responsive.jpg) no-repeat center  center fixed #34495e;
 	-webkit-background-size:auto;
@@ -364,7 +364,7 @@ a.top-section {
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	EVENT SECTION
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/	
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 #event {
 	background: #ffffff;
 	position: relative;
@@ -467,7 +467,7 @@ a.top-section {
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	ABOUT SECTION
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/	
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 #about {
 	background: #ffffff;
 	position: relative;
@@ -554,7 +554,7 @@ a.top-section {
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	TEAM SECTION
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/	
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .team {
 	position: relative;
 	width: 100%;
@@ -638,7 +638,7 @@ a.top-section {
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	PARALLAX 01
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/	
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 #parallax1 {
 	width: 100%;
 	position: relative;
@@ -666,7 +666,7 @@ a.top-section {
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	SERVICES SECTION
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/	
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 #services {
 	background: #fff;
 	position: relative;
@@ -762,7 +762,7 @@ a.top-section {
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	PARALLAX 02
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/	
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 #parallax2 {
 	background: url(../images/Free-Mockups-Vol-2---2.png) no-repeat center center fixed #2a3b4b;
 	-webkit-background-size: cover;
@@ -934,7 +934,7 @@ a.top-section {
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	PARALLAX 03
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/	
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 #parallax3 {
 	width: 100%;
 	position: relative;
@@ -1006,7 +1006,7 @@ a.top-section {
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	PARALLAX 04
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/	
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 #parallax4 {
 	width: 100%;
 	position: relative;
@@ -1035,7 +1035,7 @@ a.top-section {
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	PRICE PLANS
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/	
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 #priceplans {
 	background: #fff;
@@ -1127,7 +1127,7 @@ a.top-section {
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	PARALLAX 04
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/	
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 #parallax5 {
 	width: 100%;
 	position: relative;
@@ -1332,7 +1332,7 @@ a.top-section {
 	width: 100%;
 }
 /*~~~~~~~~~~~~~~~~~~~
-Test modal 
+Test modal
 ~~~~~~~~~~~~~~~~~~~~~~*/
 .test_modal {
 	position: absolute;
@@ -1347,7 +1347,7 @@ Test modal
 	width: 100%;
 }
 
-/*``````````````````````` 	
+/*```````````````````````
 /* RESPONSIVE CSS
 ````````````````````````````` */
 @media (min-width: 950px) {
@@ -1380,8 +1380,8 @@ p {
 	margin: 0 0 10px;
 	line-height: 1.425em;
 }
-/*~~~~~~~~~~~~~~ 
-Slider Carousel 
+/*~~~~~~~~~~~~~~
+Slider Carousel
 ~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .carousel .item {
 	height: 500px;
@@ -1528,7 +1528,7 @@ parallax2
 }
 }
 @media (max-width: 480px) {
-/* responsive design section*/	
+/* responsive design section*/
 #responsive_design li:nth-child(1) {
 	width: 30%;
 }
