@@ -1,0 +1,104 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+fieldset,
+img {
+    border: 0;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+    font-style: normal;
+    font-weight: normal;
+}
+ol,
+ul {
+    list-style: none;
+}
+caption,
+th {
+    text-align: left;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+q:before,
+q:after {
+    content: '';
+}
+abbr,
+acronym {
+    border: 0;
+}
+/* input 繧ケ繧ソ繧、繝ォ繝ェ繧サ繝�ヨ*/
+input[type="submit"],
+input[type="button"] {
+    /*border-radius: 0;*/
+    -webkit-box-sizing: content-box;
+    -webkit-appearance: button;
+    appearance: button;
+    border: none;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+input[type="submit"]::-webkit-search-decoration,
+input[type="button"]::-webkit-search-decoration {
+    display: none;
+}
+input[type="submit"]::focus,
+input[type="button"]::focus {
+    outline-offset: -2px;
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+input[type="range"]::-webkit-slider-thumb {
+    /*  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;*/
+    /* 縺薙％縺ォ繝励Ο繝代ユ繧」 */
+}
+*{
+    box-sizing: border-box;
+}
