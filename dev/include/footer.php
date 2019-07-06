@@ -19,7 +19,7 @@
 		<ul class="link_3">
 		    <li><a href="/privacy/">Privacy</a></li>
 		    <li><a href="/privacy/">Terms of Service</a></li>
-		</ul> 
+		</ul>
 
 	</div>
 </div>

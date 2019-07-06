@@ -69,7 +69,6 @@ abbr,
 acronym {
     border: 0;
 }
-/* input 繧ケ繧ソ繧、繝ォ繝ェ繧サ繝�ヨ*/
 input[type="submit"],
 input[type="button"] {
     /*border-radius: 0;*/
@@ -97,7 +96,6 @@ input[type="range"]::-webkit-slider-thumb {
     /*  -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;*/
-    /* 縺薙％縺ォ繝励Ο繝代ユ繧」 */
 }
 *{
     box-sizing: border-box;

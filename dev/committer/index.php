@@ -76,7 +76,7 @@
 					<p>text</p>
 				</li>
 			</ul>
-			
+
 		</div>
 
 	</div>
@@ -89,8 +89,8 @@
 			<h2>LET’S CONTACT <span>US</span></h2>
 
 			<form method="post" action="/contact/comp.php" name="form1">
-			<input type="text" name="name" placeholder="Your Name"> 
-			<input type="text" name="email" placeholder="Your email"> 
+			<input type="text" name="name" placeholder="Your Name">
+			<input type="text" name="email" placeholder="Your email">
 			<textarea name="msg">Your message to us</textarea>
 			</form>
 
@@ -113,7 +113,7 @@ $(function(){
 	$('.box_3 li').each(function(index, element) {
 		$(this).addClass("a"+index);
 	});
-	
+
 	$(".box_2 li").click(function(){
 		$(".box_2 li").removeClass("act");
 		var c = $(this).attr("class");

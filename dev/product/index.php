@@ -47,7 +47,7 @@
 			<h3>THE BEST <span>EDUCATION</span><br>SERVICE EVER</h3>
 
 			<p>As easy as putting programming blocks on a tablet, users can make programs which control a robot and learn the basic programming structures</p>
-			
+
 			<p>This Android application helps beginners of programming to learn.<br>
 			<br>
 			Users can make programs which control a robot by assembling blocks on an Android device (tablets are recommended). <br>
@@ -91,7 +91,7 @@
 			<p class="t2">We have open source curriculm.<br>If you wanna check it please go to our Github page</p>
 
 			<a href="https://github.com/PileProject/drive" target="_blank">GITHUB</a>
-	
+
 		</div>
 	</div>
 </section>
@@ -105,7 +105,7 @@
 
 			<p>LEGO MINDSTORMS EV3 makes building, programming and commanding your own LEGO robots smarter, faster, and more fun than ever. Follow the simple steps below and before you know it, you’ll be in control of robots that drive, shoot, slither, walk, slam, and spin – to name just a few of the actions that come with this awesome robotics set.</p>
 			<p class="t3">写真提供:株式会社アフレル</p>
-	
+
 		</div>
 	</div>
 </section>
