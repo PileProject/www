@@ -33,7 +33,7 @@
 </div>
 </section>
 <!-- /section -->
-<!-- section --
+<!-- section -->
 <section>
 <div class="wrap box_3">
 	<h2>MAIN MEDIA</h2>
