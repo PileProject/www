@@ -37,7 +37,7 @@
 
 </section>
 <!-- /section -->
-<!-- section --
+<!-- section -->
 <section>
 	<div class="bg_2 box_2">
 
